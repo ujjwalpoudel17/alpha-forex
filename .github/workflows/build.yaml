@@ -25,5 +25,5 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push ujjwal1124/alpha-forex:GITHUB_RUN_ID
+          docker push ujjwal1124/alpha-forex:$GITHUB_RUN_ID
       
